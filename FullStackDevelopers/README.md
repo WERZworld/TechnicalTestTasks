@@ -35,15 +35,15 @@ I want to be able to log out.
 
 ### Front-end
 
-- Uses Auth0 to allow users to authorize using Facebook/Twitter;
+- Uses [Auth0](https://auth0.com/) to allow users to authorize using Facebook/Twitter;
 - Allows authorized users to manage (add/remove) keywords;
-- Uses WebSockets/Socket.IO to listen for new posts in a real-time.
+- Uses WebSockets/[Socket.IO](https://socket.io/) to listen for new posts in a real-time.
 
 ### Back-end
 
 - Stores user's settings (keywords);
 - Uses both Facebook and Twitter APIs to retrieve posts by keywords;
-- Uses WebSockets/Socket.IO to stream consolidated feed to the users.
+- Uses WebSockets/[Socket.IO](https://socket.io/) to stream consolidated feed to the users.
 
 ### Stack
 
