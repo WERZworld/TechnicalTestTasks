@@ -33,13 +33,13 @@ I want to be able to log out.
 
 ## Detailed explanation
 
-### Front-end:
+### Front-end
 
 - Uses Auth0 to allow users to authorize using Facebook/Twitter;
 - Allows authorized users to manage (add/remove) keywords;
 - Uses WebSockets/Socket.IO to listen for new posts in a real-time.
 
-### Back-end:
+### Back-end
 
 - Stores user's settings (keywords);
 - Uses both Facebook and Twitter APIs to retrieve posts by keywords;
