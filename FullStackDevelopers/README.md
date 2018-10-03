@@ -7,24 +7,24 @@ Create an application that allows a user to subscribe to Facebook/Twitter public
 ## User stories
 
 ```
-As a **visitor**,
-I want **to log in using my Facebook/Twitter account**
-so that **my app settings will be stored at the back-end**.
+As a visitor,
+I want to log in using my Facebook/Twitter account
+so that my app settings will be stored at the back-end.
 ```
 
 ```
-As a **logged in user**,
-I want **to see a feed of posts matching the keywords I've added**.
+As a logged in user,
+I want to see a feed of posts matching the keywords I've added.
 ```
 
 ```
-As a **logged in user**,
-I want **to manage (add and remove) keywords**.
+As a logged in user,
+I want to manage (add and remove) keywords.
 ```
 
 ```
-As a **logged in user**,
-I want **to be able to log out**.
+As a logged in user,
+I want to be able to log out.
 ```
 
 ## Wireframes
@@ -57,11 +57,11 @@ Use React for front-end and Node.js for back-end + any libraries you're comforta
 
 ## Must-haves
 
-- All the code must be checked by ESLint or xo.
+- All the code must be checked by [ESLint](https://github.com/eslint/eslint) or [xo](https://github.com/xojs/xo).
 - Use Git for version control and split your work into meaningful commits.
-- Both apps must be deployed so that everyone can check it out. You can use Now + pronto.
+- Both apps must be deployed so that everyone can check it out. You can use [Now](https://zeit.co/now) + [pronto](https://github.com/vadimdemedes/pronto).
 - Configuration and security credentials should not be stored in the code.
-- Front-end must be built using UI frameworks with no custom styles. Use Ant Design (more preferable) or Material UI (less preferable).
+- Front-end must be built using UI frameworks with no custom styles. Use [Ant Design](https://ant.design/) (more preferable) or [Material UI](https://material-ui.com/) (less preferable).
 
 ## Nice-to-haves
 
