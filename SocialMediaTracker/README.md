@@ -1,4 +1,4 @@
-# Eleken technical test task for full-stack developers
+# Social media key word tracker
 
 ## Brief explanation
 
