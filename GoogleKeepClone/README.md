@@ -72,18 +72,16 @@ Use React for front-end and Firebase for authentication and real-time database.
 
 ### Front-end (client)
 
-- **Web** Use latest version of React and `create-react-app` to bootstrap the project.
-- **Mobile** Use at least React Native v.0.60
+- Use latest version of React and `create-react-app` to bootstrap the project.
 - We suggest to use a UI framework with no custom styles. Use [Ant Design](https://ant.design/) (more preferable) or [Material UI](https://material-ui.com/) (less preferable).
+- **Bonus** Use [Hooks](https://reactjs.org/docs/hooks-intro.html)
 - **Bonus** Use TypeScript
-- **Bonus** Use Hooks
-
 
 ### Back-end
 
 - Use Firebase for authentication
 - Use Firebase for data storage
-- **Bonus** Use Firebase Cloud Functions for when necessary
+- Use Firebase Cloud Functions if necessary
 
 ## How to proceed with the test task
 
