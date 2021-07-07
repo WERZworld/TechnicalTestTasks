@@ -2,7 +2,7 @@
 
 ## Brief explanation
 
-We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=1%3A674). Note that you can run a prototype in this page https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=0%3A1
+We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=1%3A674). Note that you can run a prototype in [this page](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=0%3A1)
 
 ## User stories
 
@@ -40,10 +40,13 @@ mutation {
     password: "qwerty123") {
     token
     user {
+      id
       username
     }
     communities {
+      id
       name
+      styleOverride
     }
     errors {
       ... on TranslatableError {
