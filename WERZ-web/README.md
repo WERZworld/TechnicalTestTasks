@@ -2,7 +2,7 @@
 
 ## Brief explanation
 
-We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=1%3A674). Note that you can run a prototype in [this page](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=0%3A1). Note that we are only asking for mobile version
+We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=1%3A674). Note that you can run a prototype in [this page](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=0%3A1)
 
 ## User stories
 
@@ -61,7 +61,7 @@ mutation {
 
 ### Stack
 
-- Use latest version of React.
+- Use latest version of React Native.
 - Use Apollo Client or React Query for processing GraphQL requests.
 - **Bonus** Use [Hooks](https://reactjs.org/docs/hooks-intro.html)
 - **Bonus** Use TypeScript
