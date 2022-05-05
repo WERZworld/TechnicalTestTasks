@@ -61,7 +61,7 @@ mutation {
 
 ### Stack
 
-- Use latest version of React Native.
+- Use latest version of React Native CLI or Expo.
 - Use Apollo Client or React Query for processing GraphQL requests.
 - **Bonus** Use [Hooks](https://reactjs.org/docs/hooks-intro.html)
 - **Bonus** Use TypeScript
@@ -71,7 +71,7 @@ mutation {
 1. Check out [existing app](https://apps.apple.com/ma/app/werz-the-good-life/id1425626243) (demo / qwerty123)  
 2. Complete a technical test task;
 2. Commit your code into a **private** GitHub repository
-3. Invite roman@werz.at, danylo@werz.at as collaborators to that repository.
+3. Invite roman@werz.at as collaborators to that repository.
 
 ## Must-haves
 
