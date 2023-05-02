@@ -1,8 +1,8 @@
-# Simplified WERZ app
+# Simplified Community Admin app
 
 ## Brief explanation
 
-We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=1%3A674). Note that you can run a prototype in [this page](https://www.figma.com/file/gnXvPeCsz5wZhrUCEKWomG/WERZ-Test-Task?node-id=0%3A1)
+We want to implement a very simplified version of WERZ app to evaluate basic skills and ability to work with graphQL API. Designs can be found [here](https://www.figma.com/file/865BdldmrRAk8OLtrEZLFU/WERZ-take-home?type=design&node-id=1301-2&t=ayBW8HrrSQJydbcx-0).
 
 ## User stories
 
@@ -10,17 +10,17 @@ These user stories are a must for successful submission of the test task.
 
 ```
 As a user,
-I want to be able to login to WERZ app.
+I want to be able to login to WERZ community admin app.
 ```
 
 ```
 As an authenticated user,
-I want to see the communities I am part of by swiping up the screen
+I want to be able to see event list for Underground community
 ```
 
 ```
 As an authenticated user,
-I want to be able to switch between communities by clicking on the community icon
+In the event list, I want to it to be paginated, and I also want to be able to search by event name
 ```
 
 ## API
@@ -28,15 +28,14 @@ I want to be able to switch between communities by clicking on the community ico
 Staging API playground is available [here](https://23759erwg9.execute-api.eu-central-1.amazonaws.com/staging/graphql). You can find documentation on queries and mutations there. 
 
 The following users are available to test:
-- test_werz_1 / qwerty123
-- test_werz_0 / qwerty123
+- demo / qwerty123
 
 Here is a sample mutation for login
 
 ```
 mutation {
   login(
-    identifier: "test_werz_1",
+    identifier: "demo",
     password: "qwerty123") {
     token
     user {
@@ -57,11 +56,12 @@ mutation {
 }
 ```
 
+For events, please use `events` graphql query, you can find documentation in Apollo playground.
+
 ## Requirements
 
 ### Stack
-
-- Use latest version of React Native CLI or Expo.
+- Use latest version of React + NextJS
 - Use Apollo Client or React Query for processing GraphQL requests.
 - **Bonus** Use [Hooks](https://reactjs.org/docs/hooks-intro.html)
 - **Bonus** Use TypeScript
