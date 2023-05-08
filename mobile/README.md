@@ -75,8 +75,9 @@ To get events, please use `events` graphql query, you can find documentation in 
 
 1. Check out [existing app](https://apps.apple.com/ma/app/werz-the-good-life/id1425626243) (demo / qwerty123)  
 2. Complete a technical test task;
-2. Commit your code into a **private** GitHub repository
-3. Invite roman@werz.at as collaborators to that repository.
+3. Commit your code into a **private** GitHub repository
+4. Invite roman@werz.at as collaborators to that repository.
+5. (if using Expo) Provide access to test with Expo Go.
 
 ## Must-haves
 
