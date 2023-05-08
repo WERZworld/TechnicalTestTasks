@@ -71,6 +71,7 @@ For events, please use `events` graphql query, you can find documentation in Apo
 1. Complete a technical test task;
 2. Commit your code into a **private** GitHub repository
 3. Invite roman@werz.at as collaborators to that repository.
+4. Deploy to Vercel or Netlify, share the link
 
 ## Must-haves
 
